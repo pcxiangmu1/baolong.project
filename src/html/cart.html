@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<meta charset="UTF-8">
+    	
+    	<title></title>
+    </head>
+    <style>
+    	table{
+    		width:600px;
+    		height:500px;
+    		margin:0 auto;
+    	}
+    	div input{
+    		width:200px;
+    		height:30px;
+    	}
+    	div button{
+    		height:30px;
+    		margin-left:10px;
+    	}
+    	.amount{
+    		width:200px;
+    		height:30px;
+    		margin-top:10px;
+    	}
+       .amount input{
+       	width:150px;
+       	height:30px;
+       	float:left;
+       }
+       .amount span{
+       	float:right;
+        width:40px;
+        height:30px;
+        text-align:center;
+        line-height:30px;
+        display:inline-block;
+        margin-left:6px;
+       }
+
+    </style>
+    <body style="background: pink">
+    	<table id="tabled">
+    		<tr>
+    			<th>编号</th>
+    			<th>名称</th>
+    			<th>单价</th>
+    			<th>数量</th>
+    		</tr>	
+    	</table>
+    	<div>总金额：<input type="text" id="sum"><button id="cont">点击结算</button></div>
+    	<div class="amount"><span>数量</span><input type="text"/></div>
+    </body>
+</html>

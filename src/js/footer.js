@@ -1,0 +1,11 @@
+/*复用尾部*/
+define(["jquery"],function(){
+	//ajax读取文件加载
+$.ajax({
+	type:"get",
+	url:"/html/include/footer.html",
+	success:function(data){
+		$("footer").html(data);
+	}
+})
+})
